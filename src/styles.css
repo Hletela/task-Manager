@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .header {
+    background-color: #f76c6c;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+  }
+  
+  .side-panel {
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .mars-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .mars-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .task-form, .task-list {
+    margin: 20px;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #218838;
+  }
+  
+  .task-list .task-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list .task-item h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .task-list .task-item button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list .task-item button:nth-child(1) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .task-list .task-item button:nth-child(2) {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .mars-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .mars-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .mars-image-container p {
+    margin: 20px;
+    color: #333;
+  }
+  
+  .mars-image-container button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .mars-image-container button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .task-form, .task-list {
+    margin: 20px;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #218838;
+  }
+  
+  .task-list .task-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list .task-item h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .task-list .task-item button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list .task-item button:nth-child(1) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .task-list .task-item button:nth-child(2) {
+    background-color: #007bff;
+    color: white;
+  }
+  
