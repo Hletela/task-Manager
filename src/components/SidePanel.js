@@ -4,7 +4,7 @@ const SidePanel = ({ currentUser, taskCount, clearTasks }) => {
   return (
     <div className="side-panel">
       <p>Current User: {currentUser}</p>
-      <p>Task Count: {taskCount}</p>
+      <p>Total Tasks: {taskCount}</p>
       <button onClick={clearTasks}>Clear Tasks</button>
     </div>
   );

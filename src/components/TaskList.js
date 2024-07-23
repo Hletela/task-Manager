@@ -44,7 +44,7 @@ const TaskList = ({ tasks, updateTask, deleteTask }) => {
               id="title"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
-              placeholder="Enter task title"
+              placeholder="Update task title"
               required
             />
           </div>
@@ -55,7 +55,7 @@ const TaskList = ({ tasks, updateTask, deleteTask }) => {
               id="description"
               value={description}
               onChange={(e) => setDescription(e.target.value)}
-              placeholder="Enter task description"
+              placeholder="Update task description"
               required
             />
           </div>
@@ -66,7 +66,7 @@ const TaskList = ({ tasks, updateTask, deleteTask }) => {
               id="creator"
               value={creator}
               onChange={(e) => setCreator(e.target.value)}
-              placeholder="Enter creator's name"
+              placeholder="Update creator's name"
               required
             />
           </div>
@@ -77,7 +77,7 @@ const TaskList = ({ tasks, updateTask, deleteTask }) => {
               id="assignee"
               value={assignee}
               onChange={(e) => setAssignee(e.target.value)}
-              placeholder="Enter assignee's name"
+              placeholder="Update assignee's name"
               required
             />
           </div>
