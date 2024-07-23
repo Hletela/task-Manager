@@ -27,28 +27,4 @@ npm start
 To run the tests:
 npm test
 
-Project Structure:
-.
-├── dist
-│   ├── index.html
-├── src
-│   ├── components
-│   │   ├── Header.js
-│   │   ├── SidePanel.js
-│   │   ├── TaskForm.js
-│   │   ├── TaskList.js
-│   │   └── MarsImage.js
-│   ├── __tests__
-│   │   ├── App.test.js
-│   │   ├── TaskForm.test.js
-│   │   ├── TaskList.test.js
-│   │   └── MarsImage.test.js
-│   ├── App.js
-│   ├── styles.css
-│   ├── index.js
-│   └── setupTests.js
-├── package.json
-├── jest.config.js
-├── .babelrc
-└── webpack.config.js
 
